@@ -12,7 +12,7 @@ reader = load_model()
 
 st.header("OCR para imagem de matrículas")
 
-matricula_original = st.file_uploader("Selecione a foto da matrícula que deseja", type=['png', 'jpg', 'jpeg', 'tif', 'tiff'])
+matricula_original = st.file_uploader("Selecione a foto da matrícula que deseja", type=['png', 'jpg', 'jpeg'])
 
 @st.cache_data(show_spinner="Extraindo texto da matrícula...")
 def process_image(image_file):

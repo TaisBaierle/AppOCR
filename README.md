@@ -5,7 +5,7 @@
   
 <h1>Como utilizar?</h1>
 
-* Ao executar o software, vai mostrar a tela abaixo:
+* Para executar o software é preciso ir no terminal Python e execultar Streamlit -m 
   ![image](https://github.com/user-attachments/assets/22d5d5d2-e64e-4791-993b-a1723ec45cc6)
 * É possível submeter arquivos nos formatos PNG, JPG e JPEG, com até 200MB de tamanho.
 * Após submeter uma imagem, é necessário aguardar um tempo de processamento.
